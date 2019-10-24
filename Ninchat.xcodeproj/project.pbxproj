@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179846B323624693008F8E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B223624693008F8E0A /* AppDelegate.swift */; };
+		179846B523624693008F8E0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B423624693008F8E0A /* SceneDelegate.swift */; };
+		179846B723624693008F8E0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B623624693008F8E0A /* ContentView.swift */; };
+		179846B923624698008F8E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179846B823624698008F8E0A /* Assets.xcassets */; };
+		179846BC23624698008F8E0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179846BB23624698008F8E0A /* Preview Assets.xcassets */; };
+		179846BF23624698008F8E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179846BD23624698008F8E0A /* LaunchScreen.storyboard */; };
+		179846CA23624699008F8E0A /* NinchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846C923624699008F8E0A /* NinchatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179846C623624699008F8E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179846A723624693008F8E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179846AE23624693008F8E0A;
+			remoteInfo = Ninchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179846AF23624693008F8E0A /* Ninchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179846B223624693008F8E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		179846B423624693008F8E0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		179846B623624693008F8E0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		179846B823624698008F8E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179846BB23624698008F8E0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		179846BE23624698008F8E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179846C023624698008F8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179846C523624699008F8E0A /* NinchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179846C923624699008F8E0A /* NinchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinchatTests.swift; sourceTree = "<group>"; };
+		179846CB23624699008F8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179846AC23624693008F8E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179846C223624699008F8E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179846A623624693008F8E0A = {
+			isa = PBXGroup;
+			children = (
+				179846B123624693008F8E0A /* Ninchat */,
+				179846C823624699008F8E0A /* NinchatTests */,
+				179846B023624693008F8E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179846B023624693008F8E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179846AF23624693008F8E0A /* Ninchat.app */,
+				179846C523624699008F8E0A /* NinchatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179846B123624693008F8E0A /* Ninchat */ = {
+			isa = PBXGroup;
+			children = (
+				179846B223624693008F8E0A /* AppDelegate.swift */,
+				179846B423624693008F8E0A /* SceneDelegate.swift */,
+				179846B623624693008F8E0A /* ContentView.swift */,
+				179846B823624698008F8E0A /* Assets.xcassets */,
+				179846BD23624698008F8E0A /* LaunchScreen.storyboard */,
+				179846C023624698008F8E0A /* Info.plist */,
+				179846BA23624698008F8E0A /* Preview Content */,
+			);
+			path = Ninchat;
+			sourceTree = "<group>";
+		};
+		179846BA23624698008F8E0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				179846BB23624698008F8E0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		179846C823624699008F8E0A /* NinchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				179846C923624699008F8E0A /* NinchatTests.swift */,
+				179846CB23624699008F8E0A /* Info.plist */,
+			);
+			path = NinchatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179846AE23624693008F8E0A /* Ninchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179846CE23624699008F8E0A /* Build configuration list for PBXNativeTarget "Ninchat" */;
+			buildPhases = (
+				179846AB23624693008F8E0A /* Sources */,
+				179846AC23624693008F8E0A /* Frameworks */,
+				179846AD23624693008F8E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ninchat;
+			productName = Ninchat;
+			productReference = 179846AF23624693008F8E0A /* Ninchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179846C423624699008F8E0A /* NinchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179846D123624699008F8E0A /* Build configuration list for PBXNativeTarget "NinchatTests" */;
+			buildPhases = (
+				179846C123624699008F8E0A /* Sources */,
+				179846C223624699008F8E0A /* Frameworks */,
+				179846C323624699008F8E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179846C723624699008F8E0A /* PBXTargetDependency */,
+			);
+			name = NinchatTests;
+			productName = NinchatTests;
+			productReference = 179846C523624699008F8E0A /* NinchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179846A723624693008F8E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Hassaniiii;
+				TargetAttributes = {
+					179846AE23624693008F8E0A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					179846C423624699008F8E0A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 179846AE23624693008F8E0A;
+					};
+				};
+			};
+			buildConfigurationList = 179846AA23624693008F8E0A /* Build configuration list for PBXProject "Ninchat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179846A623624693008F8E0A;
+			productRefGroup = 179846B023624693008F8E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179846AE23624693008F8E0A /* Ninchat */,
+				179846C423624699008F8E0A /* NinchatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179846AD23624693008F8E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179846BF23624698008F8E0A /* LaunchScreen.storyboard in Resources */,
+				179846BC23624698008F8E0A /* Preview Assets.xcassets in Resources */,
+				179846B923624698008F8E0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179846C323624699008F8E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179846AB23624693008F8E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179846B323624693008F8E0A /* AppDelegate.swift in Sources */,
+				179846B523624693008F8E0A /* SceneDelegate.swift in Sources */,
+				179846B723624693008F8E0A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179846C123624699008F8E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179846CA23624699008F8E0A /* NinchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179846C723624699008F8E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179846AE23624693008F8E0A /* Ninchat */;
+			targetProxy = 179846C623624699008F8E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179846BD23624698008F8E0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179846BE23624698008F8E0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179846CC23624699008F8E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		179846CD23624699008F8E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179846CF23624699008F8E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ninchat/Preview Content\"";
+				DEVELOPMENT_TEAM = M4M4845P22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ninchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaniiii.Ninchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179846D023624699008F8E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ninchat/Preview Content\"";
+				DEVELOPMENT_TEAM = M4M4845P22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ninchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaniiii.Ninchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		179846D223624699008F8E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M4845P22;
+				INFOPLIST_FILE = NinchatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaniiii.NinchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninchat.app/Ninchat";
+			};
+			name = Debug;
+		};
+		179846D323624699008F8E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M4845P22;
+				INFOPLIST_FILE = NinchatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaniiii.NinchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninchat.app/Ninchat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179846AA23624693008F8E0A /* Build configuration list for PBXProject "Ninchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179846CC23624699008F8E0A /* Debug */,
+				179846CD23624699008F8E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179846CE23624699008F8E0A /* Build configuration list for PBXNativeTarget "Ninchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179846CF23624699008F8E0A /* Debug */,
+				179846D023624699008F8E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179846D123624699008F8E0A /* Build configuration list for PBXNativeTarget "NinchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179846D223624699008F8E0A /* Debug */,
+				179846D323624699008F8E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179846A723624693008F8E0A /* Project object */;
+}
