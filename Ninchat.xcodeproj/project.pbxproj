@@ -3,17 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1755A00D23632A39003ED476 /* ClockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755A00C23632A39003ED476 /* ClockRequest.swift */; };
+		1755A00F23632A42003ED476 /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755A00E23632A42003ED476 /* ClockService.swift */; };
+		1755A013236361AD003ED476 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755A012236361AD003ED476 /* String+Extension.swift */; };
+		1755A01523638A9F003ED476 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755A01423638A9F003ED476 /* HelperTests.swift */; };
 		179846B323624693008F8E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B223624693008F8E0A /* AppDelegate.swift */; };
 		179846B523624693008F8E0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B423624693008F8E0A /* SceneDelegate.swift */; };
 		179846B723624693008F8E0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846B623624693008F8E0A /* ContentView.swift */; };
 		179846B923624698008F8E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179846B823624698008F8E0A /* Assets.xcassets */; };
 		179846BC23624698008F8E0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179846BB23624698008F8E0A /* Preview Assets.xcassets */; };
 		179846BF23624698008F8E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179846BD23624698008F8E0A /* LaunchScreen.storyboard */; };
-		179846CA23624699008F8E0A /* NinchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846C923624699008F8E0A /* NinchatTests.swift */; };
+		179846D623624BC2008F8E0A /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846D523624BC2008F8E0A /* TimeView.swift */; };
+		179846D82362514C008F8E0A /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846D72362514C008F8E0A /* LogView.swift */; };
+		179846DB236256F5008F8E0A /* AuditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846DA236256F5008F8E0A /* AuditViewModel.swift */; };
+		179846DE2362DDE3008F8E0A /* AuditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846DD2362DDE3008F8E0A /* AuditService.swift */; };
+		179846E22362DEF1008F8E0A /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846E12362DEF1008F8E0A /* RequestHeader.swift */; };
+		179846E42362E075008F8E0A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846E32362E075008F8E0A /* Request.swift */; };
+		179846E72362E226008F8E0A /* AuditRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846E62362E226008F8E0A /* AuditRequest.swift */; };
+		179846E92362E2DB008F8E0A /* RequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846E82362E2DB008F8E0A /* RequestBody.swift */; };
+		179846EC2362E359008F8E0A /* SecurityWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846EB2362E359008F8E0A /* SecurityWrapper.swift */; };
+		179846EE2362E3CC008F8E0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846ED2362E3CC008F8E0A /* Constants.swift */; };
+		179846F02362E72E008F8E0A /* SecurityWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846EF2362E72E008F8E0A /* SecurityWrapperTests.swift */; };
+		179846F22362EEA4008F8E0A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846F12362EEA4008F8E0A /* ServiceManager.swift */; };
+		179846F42362EECD008F8E0A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179846F32362EECD008F8E0A /* Result.swift */; };
+		17FD21CB236324B5007B4C43 /* AccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD21CA236324B5007B4C43 /* AccessViewModel.swift */; };
+		17FD21CF23632531007B4C43 /* AccessRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD21CE23632531007B4C43 /* AccessRequest.swift */; };
+		17FD21D12363253B007B4C43 /* AccessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD21D02363253B007B4C43 /* AccessService.swift */; };
+		AD47443F168AD10E66D03EA0 /* Pods_Ninchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645B49D6DCD102E09A1304AA /* Pods_Ninchat.framework */; };
+		BD5930FF76C100DCE6859BC9 /* Pods_NinchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96504E5EBC03C60340E71C0 /* Pods_NinchatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1755A00C23632A39003ED476 /* ClockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockRequest.swift; sourceTree = "<group>"; };
+		1755A00E23632A42003ED476 /* ClockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockService.swift; sourceTree = "<group>"; };
+		1755A012236361AD003ED476 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1755A01423638A9F003ED476 /* HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTests.swift; sourceTree = "<group>"; };
 		179846AF23624693008F8E0A /* Ninchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179846B223624693008F8E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179846B423624693008F8E0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +61,29 @@
 		179846BE23624698008F8E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		179846C023624698008F8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179846C523624699008F8E0A /* NinchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		179846C923624699008F8E0A /* NinchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinchatTests.swift; sourceTree = "<group>"; };
 		179846CB23624699008F8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179846D523624BC2008F8E0A /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		179846D72362514C008F8E0A /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		179846DA236256F5008F8E0A /* AuditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditViewModel.swift; sourceTree = "<group>"; };
+		179846DD2362DDE3008F8E0A /* AuditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditService.swift; sourceTree = "<group>"; };
+		179846E12362DEF1008F8E0A /* RequestHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeader.swift; sourceTree = "<group>"; };
+		179846E32362E075008F8E0A /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		179846E62362E226008F8E0A /* AuditRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditRequest.swift; sourceTree = "<group>"; };
+		179846E82362E2DB008F8E0A /* RequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBody.swift; sourceTree = "<group>"; };
+		179846EB2362E359008F8E0A /* SecurityWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityWrapper.swift; sourceTree = "<group>"; };
+		179846ED2362E3CC008F8E0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		179846EF2362E72E008F8E0A /* SecurityWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityWrapperTests.swift; sourceTree = "<group>"; };
+		179846F12362EEA4008F8E0A /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		179846F32362EECD008F8E0A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		17FD21CA236324B5007B4C43 /* AccessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewModel.swift; sourceTree = "<group>"; };
+		17FD21CE23632531007B4C43 /* AccessRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessRequest.swift; sourceTree = "<group>"; };
+		17FD21D02363253B007B4C43 /* AccessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessService.swift; sourceTree = "<group>"; };
+		645B49D6DCD102E09A1304AA /* Pods_Ninchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ninchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBC4DA12CCE31EB66881CF1 /* Pods-NinchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinchatTests.debug.xcconfig"; path = "Target Support Files/Pods-NinchatTests/Pods-NinchatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A20624ABB53878A3C19AE2DA /* Pods-Ninchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ninchat.release.xcconfig"; path = "Target Support Files/Pods-Ninchat/Pods-Ninchat.release.xcconfig"; sourceTree = "<group>"; };
+		A896706ACCEB58263D4F3A85 /* Pods-NinchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinchatTests.release.xcconfig"; path = "Target Support Files/Pods-NinchatTests/Pods-NinchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4DF41E1C5323549DF948C1D /* Pods-Ninchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ninchat.debug.xcconfig"; path = "Target Support Files/Pods-Ninchat/Pods-Ninchat.debug.xcconfig"; sourceTree = "<group>"; };
+		F96504E5EBC03C60340E71C0 /* Pods_NinchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD47443F168AD10E66D03EA0 /* Pods_Ninchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +99,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5930FF76C100DCE6859BC9 /* Pods_NinchatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0497095B73BE5D318F77DA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				645B49D6DCD102E09A1304AA /* Pods_Ninchat.framework */,
+				F96504E5EBC03C60340E71C0 /* Pods_NinchatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		179846A623624693008F8E0A = {
 			isa = PBXGroup;
 			children = (
 				179846B123624693008F8E0A /* Ninchat */,
 				179846C823624699008F8E0A /* NinchatTests */,
 				179846B023624693008F8E0A /* Products */,
+				32746498BFFCFE3CF835D47E /* Pods */,
+				0497095B73BE5D318F77DA29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +140,10 @@
 			children = (
 				179846B223624693008F8E0A /* AppDelegate.swift */,
 				179846B423624693008F8E0A /* SceneDelegate.swift */,
-				179846B623624693008F8E0A /* ContentView.swift */,
+				179846EA2362E33B008F8E0A /* Helper */,
+				179846DC2362DDBC008F8E0A /* Networking */,
+				179846D9236253D1008F8E0A /* ViewModel */,
+				179846D423624BA7008F8E0A /* View */,
 				179846B823624698008F8E0A /* Assets.xcassets */,
 				179846BD23624698008F8E0A /* LaunchScreen.storyboard */,
 				179846C023624698008F8E0A /* Info.plist */,
@@ -101,10 +163,109 @@
 		179846C823624699008F8E0A /* NinchatTests */ = {
 			isa = PBXGroup;
 			children = (
-				179846C923624699008F8E0A /* NinchatTests.swift */,
+				179846EF2362E72E008F8E0A /* SecurityWrapperTests.swift */,
+				1755A01423638A9F003ED476 /* HelperTests.swift */,
 				179846CB23624699008F8E0A /* Info.plist */,
 			);
 			path = NinchatTests;
+			sourceTree = "<group>";
+		};
+		179846D423624BA7008F8E0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				179846D523624BC2008F8E0A /* TimeView.swift */,
+				179846D72362514C008F8E0A /* LogView.swift */,
+				179846B623624693008F8E0A /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		179846D9236253D1008F8E0A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				179846DA236256F5008F8E0A /* AuditViewModel.swift */,
+				17FD21CA236324B5007B4C43 /* AccessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		179846DC2362DDBC008F8E0A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				179846E02362DE42008F8E0A /* Request */,
+				179846DF2362DE2A008F8E0A /* Service */,
+				179846F32362EECD008F8E0A /* Result.swift */,
+				179846F12362EEA4008F8E0A /* ServiceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		179846DF2362DE2A008F8E0A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				17FD21CC23632511007B4C43 /* Access */,
+				17FD21CD23632519007B4C43 /* Clock */,
+				179846E52362E1EA008F8E0A /* Audit */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		179846E02362DE42008F8E0A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				179846E12362DEF1008F8E0A /* RequestHeader.swift */,
+				179846E82362E2DB008F8E0A /* RequestBody.swift */,
+				179846E32362E075008F8E0A /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		179846E52362E1EA008F8E0A /* Audit */ = {
+			isa = PBXGroup;
+			children = (
+				179846E62362E226008F8E0A /* AuditRequest.swift */,
+				179846DD2362DDE3008F8E0A /* AuditService.swift */,
+			);
+			path = Audit;
+			sourceTree = "<group>";
+		};
+		179846EA2362E33B008F8E0A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				179846ED2362E3CC008F8E0A /* Constants.swift */,
+				179846EB2362E359008F8E0A /* SecurityWrapper.swift */,
+				1755A012236361AD003ED476 /* String+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		17FD21CC23632511007B4C43 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				17FD21CE23632531007B4C43 /* AccessRequest.swift */,
+				17FD21D02363253B007B4C43 /* AccessService.swift */,
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		17FD21CD23632519007B4C43 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				1755A00C23632A39003ED476 /* ClockRequest.swift */,
+				1755A00E23632A42003ED476 /* ClockService.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		32746498BFFCFE3CF835D47E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF41E1C5323549DF948C1D /* Pods-Ninchat.debug.xcconfig */,
+				A20624ABB53878A3C19AE2DA /* Pods-Ninchat.release.xcconfig */,
+				8BBC4DA12CCE31EB66881CF1 /* Pods-NinchatTests.debug.xcconfig */,
+				A896706ACCEB58263D4F3A85 /* Pods-NinchatTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 179846CE23624699008F8E0A /* Build configuration list for PBXNativeTarget "Ninchat" */;
 			buildPhases = (
+				1BFE1D8B6C5026FE29E7094E /* [CP] Check Pods Manifest.lock */,
 				179846AB23624693008F8E0A /* Sources */,
 				179846AC23624693008F8E0A /* Frameworks */,
 				179846AD23624693008F8E0A /* Resources */,
+				4B2CED8EC81BBE00E4F42C54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 179846D123624699008F8E0A /* Build configuration list for PBXNativeTarget "NinchatTests" */;
 			buildPhases = (
+				7ED2A5A63FD60E16FBCA0D75 /* [CP] Check Pods Manifest.lock */,
 				179846C123624699008F8E0A /* Sources */,
 				179846C223624699008F8E0A /* Frameworks */,
 				179846C323624699008F8E0A /* Resources */,
@@ -160,6 +324,7 @@
 					};
 					179846C423624699008F8E0A = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 						TestTargetID = 179846AE23624693008F8E0A;
 					};
 				};
@@ -203,14 +368,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BFE1D8B6C5026FE29E7094E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ninchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2CED8EC81BBE00E4F42C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ninchat/Pods-Ninchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ninchat/Pods-Ninchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ninchat/Pods-Ninchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ED2A5A63FD60E16FBCA0D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinchatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		179846AB23624693008F8E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1755A00F23632A42003ED476 /* ClockService.swift in Sources */,
+				179846E22362DEF1008F8E0A /* RequestHeader.swift in Sources */,
+				179846EC2362E359008F8E0A /* SecurityWrapper.swift in Sources */,
+				179846E72362E226008F8E0A /* AuditRequest.swift in Sources */,
 				179846B323624693008F8E0A /* AppDelegate.swift in Sources */,
+				17FD21CB236324B5007B4C43 /* AccessViewModel.swift in Sources */,
 				179846B523624693008F8E0A /* SceneDelegate.swift in Sources */,
+				179846F22362EEA4008F8E0A /* ServiceManager.swift in Sources */,
+				179846F42362EECD008F8E0A /* Result.swift in Sources */,
 				179846B723624693008F8E0A /* ContentView.swift in Sources */,
+				179846D82362514C008F8E0A /* LogView.swift in Sources */,
+				1755A013236361AD003ED476 /* String+Extension.swift in Sources */,
+				17FD21D12363253B007B4C43 /* AccessService.swift in Sources */,
+				179846EE2362E3CC008F8E0A /* Constants.swift in Sources */,
+				179846DB236256F5008F8E0A /* AuditViewModel.swift in Sources */,
+				179846D623624BC2008F8E0A /* TimeView.swift in Sources */,
+				179846E42362E075008F8E0A /* Request.swift in Sources */,
+				179846DE2362DDE3008F8E0A /* AuditService.swift in Sources */,
+				179846E92362E2DB008F8E0A /* RequestBody.swift in Sources */,
+				17FD21CF23632531007B4C43 /* AccessRequest.swift in Sources */,
+				1755A00D23632A39003ED476 /* ClockRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +465,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179846CA23624699008F8E0A /* NinchatTests.swift in Sources */,
+				179846F02362E72E008F8E0A /* SecurityWrapperTests.swift in Sources */,
+				1755A01523638A9F003ED476 /* HelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +608,7 @@
 		};
 		179846CF23624699008F8E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DF41E1C5323549DF948C1D /* Pods-Ninchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +629,7 @@
 		};
 		179846D023624699008F8E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20624ABB53878A3C19AE2DA /* Pods-Ninchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,9 +650,11 @@
 		};
 		179846D223624699008F8E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBC4DA12CCE31EB66881CF1 /* Pods-NinchatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4M4845P22;
 				INFOPLIST_FILE = NinchatTests/Info.plist;
@@ -414,6 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hassaniiii.NinchatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninchat.app/Ninchat";
@@ -422,9 +675,11 @@
 		};
 		179846D323624699008F8E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A896706ACCEB58263D4F3A85 /* Pods-NinchatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4M4845P22;
 				INFOPLIST_FILE = NinchatTests/Info.plist;
