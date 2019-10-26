@@ -11,15 +11,18 @@ import Combine
 
 final class AccessViewModel: ObservableObject {
     @Published var clock: String = ""
-    
-    private let accessService: AccessService = AccessServiceImpl()
-    private let clockService: ClockService = ClockServiceImpl()
-    private var cancellableSet: Set<AnyCancellable> = []
-    private var auditViewModel: AuditViewModel
+    private let accessService: AccessService
+    private let clockService: ClockService
+    private let auditViewModel: AuditViewModel
     
     init(auditViewModel: AuditViewModel) {
         self.auditViewModel = auditViewModel
-        
+        self.accessService = AccessServiceImpl()
+        self.clockService = ClockServiceImpl()
+        self.startServerObservation()
+    }
+    
+    private func startServerObservation() {
         let timer = Timer(timeInterval: ServiceConstants.timeInterval, repeats: true) { [unowned self] _ in
             self.fetchClock()
         }
@@ -32,7 +35,7 @@ final class AccessViewModel: ObservableObject {
             .sink(receiveCompletion: { [unowned self] error in
                 self.error(error)
             }, receiveValue: { })
-            .store(in: &cancellableSet)
+            .cancel()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(20)) {
             self.clockService.observe()
@@ -47,18 +50,17 @@ final class AccessViewModel: ObservableObject {
                 }, receiveValue: { [unowned self] clock in
                     self.clock = clock?.unwrapped.toDateString ?? ""
                 })
-                .store(in: &self.cancellableSet)
+                .cancel()
         }
     }
     
     private func error(_ err: Subscribers.Completion<APIError>) {
         if case let .failure(fail) = err,
             case let .detailed(statusCode,_) = fail {
-            cancellableSet.forEach { $0.cancel() }
                         
             switch statusCode {
             case Reason.serviceUnavailable.rawValue:
-                auditViewModel.setChortle()
+                auditViewModel.updateAuditLogServerLock()
             default: break
             }
         }
