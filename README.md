@@ -1,4 +1,4 @@
-# Ninchat
+# SwiftUICombine
 SwiftUI + Combine + SHA_256 + MVVM
 
 ## Features
